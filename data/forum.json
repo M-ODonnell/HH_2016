@@ -2,15 +2,35 @@
   "posts": [
     {
       "topic": "Sample Topic One",
-      "message": "This is my first sample message."
+      "user": "username",
+      "message": "This is my first sample message.",
+      "replies": [
+        {
+          "message": "This is a reply",
+          "user": "another user"
+        },
+        {
+          "message": "This is another reply",
+          "user": "another user again"
+        }
+      ]
     },
     {
       "topic": "Sample Topic Two",
-      "message": "This is my second sample message."
+      "user": "username",
+      "message": "This is my second sample message.",
+      "replies": [
+        {
+          "message": "This is a reply",
+          "user": "another user"
+        }
+      ]
     },
     {
       "topic": "Sample Topic Three",
-      "message": "This is my third sample message."
+      "user": "username",
+      "message": "This is my third sample message.",
+      "replies": []
     }
   ]
 }
