@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "topic": "Sample Topic One",
+      "user": "username",
+      "message": "This is my first sample message.",
+      "replies": [
+        {
+          "message": "This is a reply",
+          "user": "another user"
+        },
+        {
+          "message": "This is another reply",
+          "user": "another user again"
+        }
+      ]
+    },
+    {
+      "topic": "Sample Topic Two",
+      "user": "username",
+      "message": "This is my second sample message.",
+      "replies": [
+        {
+          "message": "This is a reply",
+          "user": "another user"
+        }
+      ]
+    },
+    {
+      "topic": "Sample Topic Three",
+      "user": "username",
+      "message": "This is my third sample message.",
+      "replies": []
+    }
+  ]
+}
+
