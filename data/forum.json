@@ -1,0 +1,17 @@
+{
+  "posts": [
+    {
+      "topic": "Sample Topic One",
+      "message": "This is my first sample message."
+    },
+    {
+      "topic": "Sample Topic Two",
+      "message": "This is my second sample message."
+    },
+    {
+      "topic": "Sample Topic Three",
+      "message": "This is my third sample message."
+    }
+  ]
+}
+
