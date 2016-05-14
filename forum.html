@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="bower_components/lodash/dist/lodash.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/forum.js"></script>
+<div class="container">
+    <div class="row">
+        <nav class="teal">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">TRANSition</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="forum.html">Forum</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="row">
+        <h3>Forum</h3>
+        <table class="bordered highlight">
+            <thead>
+                <tr>
+                    <th>Topic</th>
+                    <th>Replies</th>
+                </tr>
+            </thead>
+            <tbody id="forumBody">
+
+            </tbody>
+        </table>
+        <div class="row">
+            <a class="waves-effect waves-light btn col s12" id="addNewTopic"><i class="material-icons left">add</i>New Topic</a>
+        </div>
+        <div class="row">
+            <form class="col s12" id="newTopicForm">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="topic" type="text">
+                        <label for="topic">Topic</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="message" type="text">
+                        <label for="message">Message</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <a class="waves-effect waves-light btn" id="submitTopic">Post</a>
+                    <a class="waves-effect waves-light btn" id="cancelTopic">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
