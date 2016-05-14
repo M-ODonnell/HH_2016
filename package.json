@@ -1,0 +1,23 @@
+{
+  "name": "transision_hh_2016",
+  "version": "1.0.0",
+  "description": "TRANSition application for Windsor-Detroit Hacking Health 2016",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap-material-design": "^0.5.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-ODonnell/HH_2016.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-ODonnell/HH_2016/issues"
+  },
+  "homepage": "https://github.com/M-ODonnell/HH_2016#readme"
+}
