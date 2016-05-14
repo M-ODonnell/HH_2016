@@ -1,0 +1,22 @@
+element.style {
+}
+
+input#username, input#password {
+    text-align: center;
+}
+
+input#username:placeholder-shown, input#password:placeholder-shown {
+    text-align: center;
+}
+
+.input-field label {
+    left: 0 !important;
+}
+
+.col.s12.m4.l4 {
+    padding: 5px;
+}
+
+i ~ p {
+    padding: 15px;
+}
