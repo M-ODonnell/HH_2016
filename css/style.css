@@ -174,7 +174,7 @@ input#message {
     border-bottom-right-radius: 15px;
     margin-left: 5px;
     padding: 12px;
-    bottom: 378px;
+    top: 150px;
     position: absolute;
     background-color: rgba(58, 191, 73, 0.47) !important;
 }
