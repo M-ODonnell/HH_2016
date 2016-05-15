@@ -41,11 +41,27 @@
      left: 0 !important;
       opacity: 1 !important;
     }
+
+    select {
+      display: block !important;}
   </style>
 </head>
 <body>
 <!-- Add navigation -->
 <div class="container">
+  <div class="header">
+    <h1>Track My Transition</h1>
+  </div>
+
+  <div class="jumbotron">
+    <nav>
+      <ul>
+        <li class="s4 m4" l4><a href="calendar.php">Daily Calendar</a></li>
+        <li class="s4 m4" l4><a href="hormone.php">Custom Treatment Plan</a></li>
+        <li class="s4 m4" l4><a href="progress.php">My Progress</a></li>
+      </ul>
+    </nav>
+  </div>
   <div class="header">
     <ul class="nav nav-pills pull-right">
       <li class="active"><a href="index.php">Home</a></li>
@@ -60,7 +76,7 @@
   <!--</div>  -->
   <div class="panel panel-default">
     <div class="panel-body">
-      <form class="s12 m12 l6" method="post" action="index.php">
+      <form class="s12 m12 l6" method="post" action="progress.php">
         <fieldset>
           <legend>Add Medicine</legend>
           
@@ -74,7 +90,7 @@
           <div class="form-group">
             <label for="doseNum" class="control-label col-xs-2">Dose:</label>
             <!-- Input -->
-            <div class="col-xs-10">
+            <div class="s12 m3 l2">
               <input type="number" name="doseNum" id="doseNum">
               <select name="select" id="doseVal" required>
                 <option value="teaspoons">teaspoons (tsp)</option>
