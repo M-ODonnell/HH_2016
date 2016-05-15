@@ -1,3 +1,10 @@
+<?php
+
+// Set the variables for the database access:
+require_once('connectvars.php');
+?>
+
+
 <html>
 <head>
     <title>Creating the - bids - Tables</title>
@@ -7,8 +14,6 @@
 
 
 <?php
-// Set the variables for the database access:
-require_once('connectvars.php');
 $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 if (mysqli_connect_error()) {
@@ -24,9 +29,7 @@ description VARCHAR(64) NOT NULL,
 status BOOLEAN NOT NULL,
 durationNum INT NOT NULL,
 durationVal varchar(32),
-productType VARCHAR(64),
-
-
+productType VARCHAR(64)
 )";
 
 if (mysqli_query ($dbc, $Query)) {

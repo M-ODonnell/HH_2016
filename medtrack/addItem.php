@@ -48,10 +48,10 @@
 <div class="container">
   <div class="header">
     <ul class="nav nav-pills pull-right">
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a href="additem.html">Add Medicine</a></li>
-      <li><a href="view.html">View List of Medicines</a></li>
-      <li><a href="edit.html">Edit List</a></li>
+      <li class="active"><a href="index.php">Home</a></li>
+      <li><a href="additem.php">Add Medicine</a></li>
+      <li><a href="view.php">View List of Medicines</a></li>
+      <li><a href="edit.php">Edit List</a></li>
     </ul>
     <h3 class="text-muted">Medicine Tracker</h3>
   </div>
@@ -60,7 +60,7 @@
   <!--</div>  -->
   <div class="panel panel-default">
     <div class="panel-body">
-      <form class="s12 m12 l6" method="post" action="index.html">
+      <form class="s12 m12 l6" method="post" action="index.php">
         <fieldset>
           <legend>Add Medicine</legend>
           
@@ -72,7 +72,7 @@
           </div>
           <!-- Label -->
           <div class="form-group">
-            <label for="dosenum" class="control-label col-xs-2">Dose:</label>
+            <label for="doseNum" class="control-label col-xs-2">Dose:</label>
             <!-- Input -->
             <div class="col-xs-10">
               <input type="number" name="doseNum" id="doseNum">
@@ -138,7 +138,7 @@
 
           <div class="form-group">
             <div class="col-xs-offset-2 col-xs-10">
-              <input type="submit" id="newProduct" value="Submit" class="btn btn-primary">
+              <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-primary">
             </div>  
           </div>
           

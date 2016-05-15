@@ -1,15 +1,8 @@
-<!--
+<?php
 
-// CS 290 -
-// Carol D Toro
-// toroc@oregonstate.edu
-// Spring 2016
-// Assignment: Database Interactions & UI
-// Filename: workouts.html
-// URL: http://52.33.44.25:3001/public/html/workouts.html
-//
--->
-<!-- Client Side static page -->
+// Set the variables for the database access:
+require_once('../db/connectvars.php');
+?>
 
 <!DOCTYPE html>
 <html>
@@ -42,10 +35,10 @@
 <div class="container">
   <div class="header">
     <ul class="nav nav-pills pull-right">
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a href="additem.html">Add Medicine</a></li>
-      <li><a href="view.html">View List of Medicines</a></li>
-      <li><a href="edit.html">Edit List</a></li>
+      <li class="active"><a href="index.php">Home</a></li>
+      <li><a href="additem.php">Add Medicine</a></li>
+      <li><a href="view.php">View List of Medicines</a></li>
+      <li><a href="edit.php">Edit List</a></li>
     </ul>
     <h3 class="text-muted">Medicine Tracker</h3>
   </div>
@@ -67,6 +60,23 @@
           <th>Duration</th>
           <th>Product Type</th>
         </tr>
+        <?php
+
+        $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) or die('Error Connecting to MySQL Server<br />');
+        $query = "SELECT * FROM meds";
+        $data = mysqli_query($connection, $query) or die('Error Querying Database <br />');
+        while($row = mysqli_fetch_array($data)){
+        echo '<tr><td><strong>' . $row['id'] .'</strong></td>' .
+        '<td>' . $row['name'] .'</td>' .
+        '<td>' . $row['dosenum'] .'</td>' .
+        '<td>' . $row['description'] .'</td>' .
+        '<td>' . $row['status'] .'</td>' .
+        '<td>' . $row['durationNum'] .'</td>' .
+        '<td>' . $row['durationVal'] .'</td>' .
+        '<td>' . $row['productType'] . '</td></tr>';
+        }
+        ?>
+
       </table>
     </div>
   </div>

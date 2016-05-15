@@ -41,10 +41,10 @@
 <div class="container">
   <div class="header">
     <ul class="nav nav-pills pull-right">
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a href="additem.html">Add Medicine</a></li>
-      <li><a href="view.html">View List of Medicines</a></li>
-      <li><a href="edit.html">Edit List</a></li>
+      <li class="active"><a href="index.php">Home</a></li>
+      <li><a href="additem.php">Add Medicine</a></li>
+      <li><a href="view.php">View List of Medicines</a></li>
+      <li><a href="edit.php">Edit List</a></li>
     </ul>
     <h3 class="text-muted">Medicine Tracker</h3>
   </div>
