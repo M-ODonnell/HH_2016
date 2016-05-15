@@ -5,7 +5,7 @@ $(document).ready(function() {
     var data;
     $('#newTopicForm').hide();
 
-    $.getJSON("./../data/forum.json", function(inData) {
+    $.getJSON("http://php.scweb.ca/~w0665618/transition/data/forum.json", function(inData) {
         data = inData;
         renderForum(data);
     });
