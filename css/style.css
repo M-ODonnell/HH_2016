@@ -3,6 +3,7 @@ element.style {
 
 input#username, input#password {
     text-align: center;
+    background-color: white;
 }
 
 input#username:placeholder-shown, input#password:placeholder-shown {
@@ -68,11 +69,13 @@ i.rightt.small.material-icons.show, i.down.small.material-icons.show {
 
 .show {
     display: block !important;
+    width: 75%;
+    margin: 0 auto;
 }
 
-li > h3 {
+.list li > h3 {
     box-shadow: 0 5px 38px -14px black;
-    width: 50%;
+    width: 75%;
     margin: 20px auto;
     padding: 10px;
     background-color: white;
@@ -81,4 +84,44 @@ li > h3 {
 li > i.small.material-icons {
     position: absolute;
     margin: 20px 0 0 181px;
+}
+
+.row .col.l12 {
+    margin-bottom: 30px;
+}
+
+a.waves-button-input {
+    background-color: white;
+    padding: 12px;
+    border-bottom: 1px solid #9e9e9e;
+    color: black;
+}
+
+a.waves-button-input {
+    background-color: white;
+    padding: 12px;
+    border-bottom: 1px solid #9e9e9e;
+    color: black;
+}
+
+a.waves-button-input:hover {
+    border-bottom: 1px solid #FF8F46;
+    box-shadow: 0 1px 0 0 #FF8F46;
+}
+
+input#username:focus, input#password:focus, input.search:focus {
+    border-bottom: 1px solid #FF8F46 !important;
+    box-shadow: 0 1px 0 0 #FF8F46 !important;
+}
+
+#addMargin {
+    margin: 10px 0 0 0;
+}
+
+.modal.modal-fixed-footer {
+    height: 162px;
+}
+
+.modal-content h4 {
+    font-size: 20px;
 }
