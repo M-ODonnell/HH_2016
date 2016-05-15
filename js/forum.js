@@ -84,7 +84,6 @@ var renderPost = function(data) {
     $('#replyForm').hide();
 };
 
-
 var hideAndClear = function() {
     $('#newTopicForm').hide();
     $('#addNewTopic').show();
