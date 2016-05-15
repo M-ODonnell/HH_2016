@@ -134,3 +134,7 @@ input#username:focus, input#password:focus, input.search:focus {
 .modal-content h4 {
     font-size: 20px;
 }
+
+#contactTherapistButton {
+    margin-bottom: 5px;
+}
