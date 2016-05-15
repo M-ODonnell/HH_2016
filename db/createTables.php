@@ -24,11 +24,12 @@ if (mysqli_connect_error()) {
 $Query = "CREATE TABLE meds (
 id INT NOT NULL PRIMARY KEY,
 name VARCHAR(32) NOT NULL,
-dosenum INT NOT NULL,
+dosenum INTEGER NOT NULL,
+doseval VARCHAR(64) NOT NULL,
 description VARCHAR(64) NOT NULL,
 status BOOLEAN NOT NULL,
-durationNum INT NOT NULL,
-durationVal varchar(32),
+durationNum INTEGER NOT NULL,
+durationVal VARCHAR(32),
 productType VARCHAR(64)
 )";
 

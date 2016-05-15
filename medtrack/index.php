@@ -60,13 +60,14 @@ require_once('../db/connectvars.php');
     $id = $_POST['id'];
     $name = $_POST['prodName'];
     $doesenum = $_POST['doseNum'];
+    $doeseval = $_POST['doesVal'];
     $description = $_POST['description'];
     $status = $_POST['status'];
     $durationNum = $_POST['durationNum'];
     $durationVal = $_POST['durationVal'];
     $productType = $_POST['productType'];
 
-    $query = "INSERT INTO meds VALUES ('0', '$name', '$dosenum', '$description', '$status', '$durationNum', '$durationVal', '$productType')";
+    $query = "INSERT INTO meds ('0', '$name', '$dosenum', '$doeseval', '$description', '$status', '$durationNum', '$durationVal', '$productType') VALUES ('0', '$name', '$dosenum', '$doeseval', '$description', '$status', '$durationNum', '$durationVal', '$productType')";
 
       if (mysqli_query ($dbc, $query)) {
       print ("The query was successfully executed!");
