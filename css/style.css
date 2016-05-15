@@ -26,6 +26,11 @@ i ~ p {
     padding: 5px;
     padding-left: 10px;
 }
+
+.postBody {
+    padding: 5px;
+    padding-left: 10px;
+}
 .col.s12.m4.l4 a {
     color: #2f2f2f;
 }
@@ -182,3 +187,8 @@ input#message {
     position: absolute;
     background-color: rgba(58, 191, 73, 0.47) !important;
 }
+
+#contactTherapistButton {
+    margin-bottom: 5px;
+}
+

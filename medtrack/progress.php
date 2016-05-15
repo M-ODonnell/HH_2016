@@ -5,7 +5,7 @@ require_once('../db/connectvars.php');
 ?>
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>Rx, OTC, & Supplement Tracker</title>
     <!--Import Google Icon Font-->
@@ -23,24 +23,26 @@ require_once('../db/connectvars.php');
     <!-- Dropdown.js -->
     <link href="//cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.css" rel="stylesheet">
 
-  </head>
+</head>
 <body>
-  <!-- Add navigation -->
-  <div class="container">
-  <div class="header">
-    <h1>Track My Transition</h1>
-  </div>
+<!-- Add navigation -->
+<div class="container">
+    <div class="header">
+        <h1>Track My Transition</h1>
+    </div>
 
-  <div class="jumbotron">
-    <nav>
-      <ul>
-        <li class="s4 m4" l4><a href="calendar.php">Daily Calendar</a></li>
-        <li class="s4 m4" l4><a href="hormone.php">Custom Treatment Plan</a></li>
-        <li class="s4 m4" l4><a href="progress.php">My Progress</a></li>
-      </ul>
-    </nav>
-  </div>
-  </div>
-  </body>
+    <div class="jumbotron">
+        <nav>
+            <ul>
+                <li class="s4 m4" l4><a href="calendar.php">Daily Calendar</a></li>
+                <li class="s4 m4" l4><a href="hormone.php">Custom Treatment Plan</a></li>
+                <li class="s4 m4" l4><a href="progress.php">My Progress</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="jumbotron">
+</div>
+</body>
 
 </html>
