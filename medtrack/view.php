@@ -34,6 +34,19 @@ require_once('../db/connectvars.php');
 <!-- Add navigation -->
 <div class="container">
   <div class="header">
+    <h1>Track My Transition</h1>
+  </div>
+
+  <div class="jumbotron">
+    <nav>
+      <ul>
+        <li class="s4 m4" l4><a href="calendar.php">Daily Calendar</a></li>
+        <li class="s4 m4" l4><a href="hormone.php">Custom Treatment Plan</a></li>
+        <li class="s4 m4" l4><a href="progress.php">My Progress</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="header">
     <ul class="nav nav-pills pull-right">
       <li class="active"><a href="index.php">Home</a></li>
       <li><a href="additem.php">Add Medicine</a></li>
