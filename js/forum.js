@@ -51,7 +51,7 @@ var forumTemplate = _.template(
 );
 
 var postTemplate = _.template(
-    '<div class="card"><h3><%- topic %></h3><p><strong><%- user %></strong></p><p><%- message %></p></div>'+
+    '<div class=""><h3><%- topic %></h3><p><strong><%- user %></strong></p><p><%- message %></p></div>'+
     '<% _.forEach(replies, function(reply, index) { %> ' +
     '<div class="card"><p><strong><%-reply.user%></strong></p><p><%-reply.message%></p></div>'+
     '<% }); %>'+
