@@ -50,9 +50,9 @@
             </div>
         </div>
         <script type="text/javascript">
-            function delayFunction() {
+            $(document).ready(function() {
                 $('.modal-trigger').leanModal()
-            }
+            });
         </script>
         <div id="users">
             <input class="search" placeholder="Search" />
@@ -73,30 +73,33 @@
                     <p class="born">Contact your doctor for a customized list of hormones and their appropriate doses. </p>
                 </li>
                 <li>
-                    <h3 onclick="setTimeout(delayFunction, 3000);" class="name modal-trigger" href="#modal1">Step 4: Monitor Changes</h3>
-                    <p class="born" >Watch for complications and treat your body as you would treat a newborn child. Your body is literally re-developing so adding chemicals such as tobacco, alcohol or other drugs may have permanent adverse effects.
+                    <h3 class="name">Step 4: Monitor Changes</h3>
+                    <div class="born">
+                    <p>Watch for complications and treat your body as you would treat a newborn child. Your body is literally re-developing so adding chemicals such as tobacco, alcohol or other drugs may have permanent adverse effects.</p>
+                    <ul>
+                        <li>Serious Side Effects to monitor for include:</li><br>
 
-                        Serious Side Effects to monitor for include:
-
-                        Hormone-related tumours
-                        liver enzyme abnormalities
-                        mild elevations of serum cholesterol and triglycerides
-                        pulmonary embolism
-                        cerebral thrombosis
-                        myocardial infarction
-                        prostatic metaplasia
-                        breast cancer *MTF
-                        recurrent myocardial infarction *FTM
-                        increases for venous thrombosisi  *MTF
-                        pulmonary embolism *MTF
-                        depressive mood changes *MTF
-                        hyperprolactinemia *MTF
-                        elevated liver enzymes *MTF
-                        group acne *FTM
-                        weight increases *FTM</p>
+                    <li>Hormone-related tumours</li>
+                    <li>liver enzyme abnormalities</li>
+                    <li>mild elevations of serum cholesterol and triglycerides</li>
+                    <li>pulmonary embolism</li>
+                    <li>cerebral thrombosis</li>
+                    <li>myocardial infarction</li>
+                    <li>prostatic metaplasia</li>
+                    <li>breast cancer *MTF</li>
+                    <li>recurrent myocardial infarction *FTM</li>
+                    <li>increases for venous thrombosisi  *MTF</li>
+                    <li>pulmonary embolism *MTF</li>
+                    <li>depressive mood changes *MTF</li>
+                    <li>hyperprolactinemia *MTF</li>
+                    <li>elevated liver enzymes *MTF</li>
+                    <li>group acne *FTM</li>
+                    <li>weight increases *FTM</li>
+                        </ul>
+                    </div>
                 </li>
                 <li>
-                    <h3 class="name">Step 5: Gender Expression</h3>
+                    <h3 class="name modal-trigger" href="#modal1">Step 5: Gender Expression</h3>
                     <p class="born">Your social gender performance will be a test which you must pass in order to be accepted as the gender you identify. Your gender expression pertains to the small nuances of male or female behaviour which will allow others to see you as the person that you are.
                         This is where a gender therapist, speech therapist, or other specialized professional may be a huge asset. View our <a href="#">list of therapists</a> to connect with local therapists. </p>
                 </li>
