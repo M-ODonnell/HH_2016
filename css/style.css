@@ -3,6 +3,7 @@ element.style {
 
 input#username, input#password {
     text-align: center;
+    background-color: white;
 }
 
 input#username:placeholder-shown, input#password:placeholder-shown {
@@ -72,11 +73,13 @@ i.rightt.small.material-icons.show, i.down.small.material-icons.show {
 
 .show {
     display: block !important;
+    width: 75%;
+    margin: 0 auto;
 }
 
-li > h3 {
+.list li > h3 {
     box-shadow: 0 5px 38px -14px black;
-    width: 50%;
+    width: 75%;
     margin: 20px auto;
     padding: 10px;
     background-color: white;
@@ -85,4 +88,97 @@ li > h3 {
 li > i.small.material-icons {
     position: absolute;
     margin: 20px 0 0 181px;
+}
+
+.row .col.l12 {
+    margin-bottom: 30px;
+}
+
+a.waves-button-input {
+    background-color: white;
+    padding: 12px;
+    border-bottom: 1px solid #9e9e9e;
+    color: black;
+}
+
+a.waves-button-input {
+    background-color: white;
+    padding: 12px;
+    border-bottom: 1px solid #9e9e9e;
+    color: black;
+}
+
+a.waves-button-input:hover, input#sendMessage:hover {
+    border-bottom: 1px solid #FF8F46;
+    box-shadow: 0 1px 0 0 #FF8F46;
+}
+
+input#username:focus, input#password:focus, input.search:focus, input#message:focus {
+    border-bottom: 1px solid #FF8F46 !important;
+    box-shadow: 0 1px 0 0 #FF8F46 !important;
+}
+
+#addMargin {
+    margin: 10px 0 0 0;
+}
+
+.modal.modal-fixed-footer {
+    height: 162px;
+}
+
+.modal-content h4 {
+    font-size: 20px;
+}
+
+input#sendMessage {
+    background-color: white;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    margin: 10px 0 10px 0;
+}
+
+input#sendMessage:focus {
+    outline: none;
+}
+
+div#secretMessage {
+    background-color: white;
+    height: 300PX;
+    border: 1px solid #9e9e9e;
+}
+
+.bigger {
+    font-size: 15rem !important;
+}
+
+.text {
+    font-size:38px;
+}
+
+input#message {
+    width: 80%;
+}
+
+#secretMessage p {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 12px;
+    width: 45%;
+    float: right;
+    margin-right: 5px;
+    background-color: rgba(180, 234, 239, 0.48);
+}
+
+.green {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 15px;
+    margin-left: 5px;
+    padding: 12px;
+    top: 150px;
+    position: absolute;
+    background-color: rgba(58, 191, 73, 0.47) !important;
 }
