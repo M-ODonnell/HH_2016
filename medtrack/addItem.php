@@ -14,38 +14,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Rx, OTC, & Supplement Tracker</title>
-  <!--Import Google Icon Font-->
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+    <meta charset="UTF-8">
+    <title>Rx, OTC, & Supplement Tracker</title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
 
-  <!-- Mobile support -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Material Design fonts -->
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Material Design fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <!-- Bootstrap -->
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Dropdown.js -->
+    <link href="//cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.css" rel="stylesheet">
 
-  <!-- Dropdown.js -->
-  <link href="//cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.css" rel="stylesheet">
-
-  <script src="../js/init.js" type="text/javascript"></script>
-  <style>
-    [type="checkbox"], [type="radio"] {
-    position: inherit !important;
-     left: 0 !important;
-      opacity: 1 !important;
-    }
-
-    select {
-      display: block !important;}
-  </style>
-</head>
+  </head>
 <body>
 <!-- Add navigation -->
 <div class="container">

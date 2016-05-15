@@ -20,14 +20,8 @@ require_once('../db/connectvars.php');
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Dropdown.js -->
     <link href="//cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.css" rel="stylesheet">
-
-    <script src="../js/init.js" type="text/javascript"></script>
-
 
 </head>
 <body>
