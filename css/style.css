@@ -104,12 +104,12 @@ a.waves-button-input {
     color: black;
 }
 
-a.waves-button-input:hover {
+a.waves-button-input:hover, input#sendMessage:hover {
     border-bottom: 1px solid #FF8F46;
     box-shadow: 0 1px 0 0 #FF8F46;
 }
 
-input#username:focus, input#password:focus, input.search:focus {
+input#username:focus, input#password:focus, input.search:focus, input#message:focus {
     border-bottom: 1px solid #FF8F46 !important;
     box-shadow: 0 1px 0 0 #FF8F46 !important;
 }
@@ -124,4 +124,57 @@ input#username:focus, input#password:focus, input.search:focus {
 
 .modal-content h4 {
     font-size: 20px;
+}
+
+input#sendMessage {
+    background-color: white;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    margin: 10px 0 10px 0;
+}
+
+input#sendMessage:focus {
+    outline: none;
+}
+
+div#secretMessage {
+    background-color: white;
+    height: 300PX;
+    border: 1px solid #9e9e9e;
+}
+
+.bigger {
+    font-size: 15rem !important;
+}
+
+.text {
+    font-size:38px;
+}
+
+input#message {
+    width: 80%;
+}
+
+#secretMessage p {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 12px;
+    width: 45%;
+    float: right;
+    margin-right: 5px;
+    background-color: rgba(180, 234, 239, 0.48);
+}
+
+.green {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 15px;
+    margin-left: 5px;
+    padding: 12px;
+    bottom: 378px;
+    position: absolute;
+    background-color: rgba(58, 191, 73, 0.47) !important;
 }
