@@ -30,38 +30,29 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/medtrack/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8472776">
-                  <caret line="68" column="218" selection-start-line="68" selection-start-column="218" selection-end-line="68" selection-end-column="218" />
+                <state vertical-scroll-proportion="0.30498177">
+                  <caret line="61" column="31" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="31" />
                   <folding>
-                    <marker date="1463261920561" expanded="true" signature="2165:2274" placeholder="INSERT INTO meds... " />
-                    <marker date="1463261920561" expanded="true" signature="2165:2281" placeholder="INSERT INTO meds... " />
-                    <marker date="1463261920561" expanded="true" signature="2165:2283" placeholder="INSERT INTO meds... " />
-                    <marker date="1463261920561" expanded="true" signature="2165:2295" placeholder="INSERT INTO meds... " />
-                    <marker date="1463261920561" expanded="true" signature="2165:2309" placeholder="INSERT INTO meds... " />
-                    <marker date="1463261920561" expanded="true" signature="2165:2311" placeholder="INSERT INTO meds... " />
-                    <marker date="1463261920561" expanded="true" signature="2165:2320" placeholder="INSERT INTO meds... " />
-                    <marker date="1463261920561" expanded="true" signature="2165:2322" placeholder="INSERT INTO meds... " />
-                    <marker date="1463261920561" expanded="true" signature="2165:2336" placeholder="INSERT INTO meds... " />
-                    <marker date="1463261920561" expanded="true" signature="2165:2338" placeholder="INSERT INTO meds... " />
-                    <marker date="1463261920561" expanded="true" signature="2165:2352" placeholder="INSERT INTO meds... " />
-                    <marker date="1463261920561" expanded="true" signature="2165:2354" placeholder="INSERT INTO meds... " />
-                    <marker date="1463261920561" expanded="true" signature="2165:2368" placeholder="INSERT INTO meds... " />
-                    <marker date="1463261920561" expanded="true" signature="2165:2370" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2190" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2194" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2201" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2203" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2215" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2229" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2231" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2240" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2242" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2256" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2258" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2272" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2274" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2288" placeholder="INSERT INTO meds... " />
+                    <marker date="1463316155567" expanded="true" signature="2165:2290" placeholder="INSERT INTO meds... " />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="addItem.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/medtrack/addItem.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-16.014925">
-                  <caret line="69" column="47" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="47" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -69,7 +60,7 @@
           <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/medtrack/edit.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-22.0">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
                   <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
                   <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
@@ -82,7 +73,7 @@
           <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/medtrack/view.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-45.419353">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="64" column="76" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
                   <folding>
                     <marker date="1463260163525" expanded="true" signature="2119:2137" placeholder="SELECT * FRO... meds" />
@@ -94,15 +85,25 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="createTables.php" pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="createTables.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/db/createTables.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.37424058">
+                <state vertical-scroll-proportion="-3.8387096">
                   <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
                   <folding>
                     <marker date="1463258039252" expanded="true" signature="404:637" placeholder="CREATE TABLE... meds" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="addItem.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/medtrack/addItem.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.3329098">
+                  <caret line="74" column="31" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="31" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -170,16 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Changed Files" />
-        <subPane subId="Project Files" />
-        <subPane subId="Default" />
-        <subPane subId="Tests" />
-      </pane>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,10 +219,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Changed Files" />
+        <subPane subId="Project Files" />
+        <subPane subId="Default" />
+        <subPane subId="Tests" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Medicine-Tracker" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/!WebDev/PHP" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
@@ -283,7 +284,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13451232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10825295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -310,11 +311,73 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/medtrack/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="218" selection-start-line="68" selection-start-column="218" selection-end-line="68" selection-end-column="218" />
+          <folding>
+            <marker date="1463316155567" expanded="true" signature="2165:2190" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2194" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2201" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2203" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2215" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2229" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2231" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2240" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2242" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2256" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2258" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2272" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2274" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2288" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2290" placeholder="INSERT INTO meds... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medtrack/addItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="47" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medtrack/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medtrack/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="76" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
+          <folding>
+            <marker date="1463260163525" expanded="true" signature="2119:2137" placeholder="SELECT * FRO... meds" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/createTables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1463258039252" expanded="true" signature="404:637" placeholder="CREATE TABLE... meds" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Medicine-Tracker/public/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -322,7 +385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -330,7 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -338,7 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -353,7 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -375,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -383,7 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -391,7 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16038883">
           <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="9" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -399,7 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5880923">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -407,7 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05346294">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="21" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -415,9 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21385176">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="e#6#97#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -425,23 +476,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08019441">
           <caret line="3" column="27" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/createTables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37424058">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <marker date="1463258039252" expanded="true" signature="404:637" placeholder="CREATE TABLE... meds" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/medtrack/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
           <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
           <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
@@ -452,7 +492,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/medtrack/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-45.419353">
+        <state vertical-scroll-proportion="0.0">
           <caret line="64" column="76" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
           <folding>
             <marker date="1463260163525" expanded="true" signature="2119:2137" placeholder="SELECT * FRO... meds" />
@@ -460,34 +500,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medtrack/addItem.php">
+    <entry file="file://$PROJECT_DIR$/db/createTables.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.014925">
-          <caret line="69" column="47" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="47" />
-          <folding />
+        <state vertical-scroll-proportion="-3.8387096">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1463258039252" expanded="true" signature="404:637" placeholder="CREATE TABLE... meds" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/medtrack/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8472776">
-          <caret line="68" column="218" selection-start-line="68" selection-start-column="218" selection-end-line="68" selection-end-column="218" />
+        <state vertical-scroll-proportion="0.30498177">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="31" />
           <folding>
-            <marker date="1463261920561" expanded="true" signature="2165:2274" placeholder="INSERT INTO meds... " />
-            <marker date="1463261920561" expanded="true" signature="2165:2281" placeholder="INSERT INTO meds... " />
-            <marker date="1463261920561" expanded="true" signature="2165:2283" placeholder="INSERT INTO meds... " />
-            <marker date="1463261920561" expanded="true" signature="2165:2295" placeholder="INSERT INTO meds... " />
-            <marker date="1463261920561" expanded="true" signature="2165:2309" placeholder="INSERT INTO meds... " />
-            <marker date="1463261920561" expanded="true" signature="2165:2311" placeholder="INSERT INTO meds... " />
-            <marker date="1463261920561" expanded="true" signature="2165:2320" placeholder="INSERT INTO meds... " />
-            <marker date="1463261920561" expanded="true" signature="2165:2322" placeholder="INSERT INTO meds... " />
-            <marker date="1463261920561" expanded="true" signature="2165:2336" placeholder="INSERT INTO meds... " />
-            <marker date="1463261920561" expanded="true" signature="2165:2338" placeholder="INSERT INTO meds... " />
-            <marker date="1463261920561" expanded="true" signature="2165:2352" placeholder="INSERT INTO meds... " />
-            <marker date="1463261920561" expanded="true" signature="2165:2354" placeholder="INSERT INTO meds... " />
-            <marker date="1463261920561" expanded="true" signature="2165:2368" placeholder="INSERT INTO meds... " />
-            <marker date="1463261920561" expanded="true" signature="2165:2370" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2190" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2194" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2201" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2203" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2215" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2229" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2231" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2240" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2242" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2256" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2258" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2272" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2274" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2288" placeholder="INSERT INTO meds... " />
+            <marker date="1463316155567" expanded="true" signature="2165:2290" placeholder="INSERT INTO meds... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medtrack/addItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3329098">
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

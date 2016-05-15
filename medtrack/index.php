@@ -66,9 +66,9 @@ require_once('../db/connectvars.php');
     $durationVal = $_POST['durationVal'];
     $productType = $_POST['productType'];
 
-    $Query = 'INSERT INTO meds (id, name, dosenum, description, status, durationNum, durationVal, productType) VALUES ("0", "$name", "$dosenum", "$description", "$status", "$durationNum", "$durationVal", "$productType")';
+    $query = "INSERT INTO meds VALUES ('0', '$name', '$dosenum', '$description', '$status', '$durationNum', '$durationVal', '$productType')";
 
-      if (mysqli_query ($dbc, $Query)) {
+      if (mysqli_query ($dbc, $query)) {
       print ("The query was successfully executed!");
       } else {
       print ("The query could not be executed!") . mysqli_error($dbc);
